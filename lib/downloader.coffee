@@ -11,7 +11,6 @@ Path = require('path')
 program = require('commander')
 ffmetadata = require("ffmetadata")
 domain = require('domain')
-process = require('process')
 EventEmitter = require('events').EventEmitter
 
 
@@ -19,8 +18,13 @@ Error = (err)=>
   console.log "#{err}".red
   process.exit(1)
 
+Success = (success)=>
+  console.log "#{success}".green
+  process.exit(0)
+
 Log = (msg)=>
   console.log " - #{msg}".green
+
 
 class Track extends EventEmitter
 
@@ -80,8 +84,7 @@ class Downloader extends EventEmitter
     console.log 'Downloader App Started..'.green
     async.series [@attemptLogin, @getPlaylist, @processTracks], (err, res)=>
       if err then return Error "#{err.toString()}"
-      console.log ' ~ ~ ~ ~ ~ ~ DONE ALL ~ ~ ~ ~ ~ ~ ~'.green
-      process.exit()
+      return Success ' ~ ~ ~ ~ ~ ~ DONE ALL ~ ~ ~ ~ ~ ~ ~'
 
   attemptLogin: (cb)=>
     SpotifyWeb.login @username, @password, (err, SpotifyInstance)=>
