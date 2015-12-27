@@ -44,7 +44,7 @@ class Track extends EventEmitter
 		if fs.existsSync( filepath )
 			stats = fs.statSync( filepath )
 			if stats.size != 0
-				console.log "Already Downlaoded: #{@track.artist[0].name} #{@track.name}".yellow
+				console.log "Already Downloaded: #{@track.artist[0].name} #{@track.name}".yellow
 				return @cb()
 
 		if !fs.existsSync( albumpath )
@@ -82,7 +82,8 @@ class Downloader extends EventEmitter
 		console.log 'Downloader App Started..'.green
 		async.series [ @attemptLogin, @getPlaylist, @processTracks ], ( err, res )=>
 			if err then return Error "#{err.toString()}"
-			console.log ' ~ ~ ~ ~ ~ ~ DONEZO ~ ~ ~ ~ ~ ~ ~'.green
+			console.log ' ~ ~ ~ ~ ~ ~ DONE ALL ~ ~ ~ ~ ~ ~ ~'.green
+			return true
 
 	attemptLogin: ( cb )=>
 		SpotifyWeb.login @username, @password, ( err, SpotifyInstance )=>
