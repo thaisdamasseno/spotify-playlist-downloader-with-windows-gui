@@ -78,11 +78,16 @@ class Track extends EventEmitter
 
 class Downloader extends EventEmitter
 
-  constructor: (@username, @password, @playlist, @directory, @folder)->
+  constructor: (@username, @password, @playlist, @directory)->
     @Spotify = null
     @Tracks = []
     @dir = @directory
+    @makeFolder = false
+    @generatePlaylist = false
+
+  run: ()=>
     console.log 'Downloader App Started..'.green
+
     async.series [@attemptLogin, @getPlaylist, @processTracks], (err, res)=>
       if err then return Error "#{err.toString()}"
       return Success ' ------- DONE ALL ------- '
@@ -109,6 +114,27 @@ class Downloader extends EventEmitter
 
   processTrack: (track, cb)=>
     TempInstance = new Track(track, @Spotify, @dir, cb)
+
+class Playlist extends EventEmitter
+
+  constructor: ()->
+    @directory = null
+    @name = null
+    @playlistFile = null
+
+  addTrackToPlaylist: ()=>
+
+
+  generatePlaylistFile: (filename, cb)=>
+    dir = Path.resolve("#{@directory}")
+    playlistFile = dir + '/' + @track.artist[0].name.replace(/\//g, ' - ') + '.m3u'
+
+    fs.appendFile('.m3u', 'data to append', (err)=>
+      if err then throw err
+      console.log('The "data to append" was appended to file!')
+    )
+    cb?()
+
 
 
 module.exports = Downloader
