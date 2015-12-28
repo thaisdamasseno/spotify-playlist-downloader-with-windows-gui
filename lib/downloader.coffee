@@ -125,15 +125,15 @@ class Playlist extends EventEmitter
   addTrackToPlaylist: ()=>
 
 
-  generatePlaylistFile: (filename, cb)=>
-    dir = Path.resolve("#{@directory}")
-    playlistFile = dir + '/' + @track.artist[0].name.replace(/\//g, ' - ') + '.m3u'
-
-    fs.appendFile('.m3u', 'data to append', (err)=>
-      if err then throw err
-      console.log('The "data to append" was appended to file!')
-    )
-    cb?()
+#  generatePlaylistFile: (filename, cb)=>
+#    dir = Path.resolve("#{@directory}")
+#    playlistFile = dir + '/' + @track.artist[0].name.replace(/\//g, ' - ') + '.m3u'
+#
+#    fs.appendFile('.m3u', 'data to append', (err)=>
+#      if err then throw err
+#      console.log('The "data to append" was appended to file!')
+#    )
+#    cb?()
 
 
 
