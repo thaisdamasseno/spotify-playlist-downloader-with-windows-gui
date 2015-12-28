@@ -78,13 +78,14 @@ class Track extends EventEmitter
 
 class Downloader extends EventEmitter
 
-  constructor: (@username, @password, @playlist, @directory)->
+  constructor: (@username, @password, @playlist, @directory, @folder)->
     @Spotify = null
     @Tracks = []
+    @dir = @directory
     console.log 'Downloader App Started..'.green
     async.series [@attemptLogin, @getPlaylist, @processTracks], (err, res)=>
       if err then return Error "#{err.toString()}"
-      return Success ' ~ ~ ~ ~ ~ ~ DONE ALL ~ ~ ~ ~ ~ ~ ~'
+      return Success ' ------- DONE ALL ------- '
 
   attemptLogin: (cb)=>
     SpotifyWeb.login @username, @password, (err, SpotifyInstance)=>
@@ -97,6 +98,7 @@ class Downloader extends EventEmitter
     @Spotify.playlist @playlist, (err, playlistData)=>
       if err then return Error("Playlist data error... #{err}")
       Log "Got Playlist: #{playlistData.attributes.name}"
+      if @folder then @dir = @directory + playlistData.attributes.name.replace(/\//g, ' - ') + '/'
       @Tracks = lodash.map playlistData.contents.items, (item)=>
         return item.uri
       cb?()
@@ -106,7 +108,7 @@ class Downloader extends EventEmitter
     async.mapSeries @Tracks, @processTrack, cb
 
   processTrack: (track, cb)=>
-    TempInstance = new Track(track, @Spotify, @directory, cb)
+    TempInstance = new Track(track, @Spotify, @dir, cb)
 
 
 module.exports = Downloader

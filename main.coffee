@@ -16,6 +16,7 @@ Program
 	.option('-p, --password [password]', 'Spotify Password (required)', null)
 	.option('-l, --playlist [playlist]', 'Spotify URI for playlist', null)
 	.option('-d, --directory [directory]', "Directory you want to save the mp3s to, default: #{getUserHome()}/spotify-mp3s", "#{getUserHome()}/spotify-mp3s")
+	.option('-f, --folder', "create folder for playlist", null)
 	.parse( process.argv )
 
 
@@ -24,6 +25,7 @@ USERNAME = Program.username
 PASSWORD = Program.password
 PLAYLIST = Program.playlist
 DIRECTORY = Program.directory
+FOLDER = Program.folder
 
 if !PASSWORD? or !USERNAME?
 	console.log '!!! MUST SPECIFY USERNAME & PASSWORD !!!'.red
@@ -35,4 +37,4 @@ if !PLAYLIST?
 
 
 
-DL = new Downloader( USERNAME, PASSWORD, PLAYLIST, DIRECTORY )
+DL = new Downloader( USERNAME, PASSWORD, PLAYLIST, DIRECTORY, FOLDER )
