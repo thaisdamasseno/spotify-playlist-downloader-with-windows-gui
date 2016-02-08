@@ -19,13 +19,16 @@
     };
   })(this);
 
-  Program.version('0.0.1').option('-u, --username [username]', 'Spotify Username (required)', null).option('-p, --password [password]', 'Spotify Password (required)', null).option('-l, --playlist [playlist]', 'Spotify URI for playlist', null).option('-d, --directory [directory]', "Directory you want to save the mp3s to, default: " + (getUserHome()) + "/spotify-mp3s", (getUserHome()) + "/spotify-mp3s").option('-f, --folder', "create folder for playlist", null).option('-g, --generate', "generate file for playlist", null).parse(process.argv);
+  Program.version('0.0.2').option('-u, --username [username]', 'Spotify Playlist Username (required)', null).option('-p, --playlist [playlist]', 'Spotify Playlist (required)', null).option('-d, --directory [directory]', "Directory you want to save the mp3s to, default: " + (getUserHome()) + "/spotify-mp3s", (getUserHome()) + "/spotify-mp3s").option('-f, --folder', "create folder for playlist", null).option('-g, --generate', "generate file for playlist", null).parse(process.argv);
 
-  USERNAME = Program.username;
+  USERNAME = ">>USERNAME<<"; //Program.username;
 
-  PASSWORD = Program.password;
+  PASSWORD = ">>PASSWORD<<"; //Program.password;
 
-  PLAYLIST = Program.playlist;
+  PLAYLIST_USER = Program.username;
+  PLAYLIST_LIST = Program.playlist;
+
+  //PLAYLIST = Program.playlist;
 
   DIRECTORY = Program.directory;
 
@@ -33,20 +36,18 @@
 
   GENERATE = Program.generate;
 
-  if ((PASSWORD == null) || (USERNAME == null)) {
-    console.log('!!! MUST SPECIFY USERNAME & PASSWORD !!!'.red);
+  if ((PLAYLIST_USER == null) || (PLAYLIST_LIST == null)) {
+    console.log('!!! MUST SPECIFY USERNAME & PLAYLIST !!!'.red);
     return Program.outputHelp();
   }
 
-  if (PLAYLIST == null) {
-    console.log('!!! MUST SPECIFY A SPOTIFY PLAYLIST !!!'.red);
-    return Program.outputHelp();
+  DL = new Downloader(USERNAME, PASSWORD, "spotify:user:" + PLAYLIST_USER + ":playlist:" + PLAYLIST_LIST, DIRECTORY);
+
+  if (FOLDER) {
+	   DL.makeFolder = true;
   }
-
-  DL = new Downloader(USERNAME, PASSWORD, PLAYLIST, DIRECTORY);
-
   if (GENERATE) {
-    DL.generate = 1;
+    DL.generatePlaylist = 1;
   }
 
   DL.run();
