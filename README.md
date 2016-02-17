@@ -17,7 +17,7 @@ You will also need ffmpeg installed.
 ###Available Options
 
 	
-	Usage: spotify-playlist-downloader [options]
+	Usage: node main.js [options]
 	
 	Options:
 
@@ -30,11 +30,10 @@ You will also need ffmpeg installed.
 	
 
 
-####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify". You would use the following command:
+####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify", you would use the following command:
+    Playlist Uri looks like this: spotify:UserXYZ:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw
 
-	spd -u yourusername -p yourpassword -l spotify:user:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw
-
-`spd` is the shorthand for `spotify-playlist-downloader`. You can use either one.
+	node main.js -u UserXYZ -p 06KmJWiQhL0XiV6QQAHsmw
 
 ####The output should look something like:
 
