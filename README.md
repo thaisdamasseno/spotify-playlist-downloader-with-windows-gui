@@ -23,10 +23,10 @@ You will also need ffmpeg installed.
 
 	    -h, --help                   output usage information
 	    -V, --version                output the version number
-	    -u, --username [username]    Spotify Username (required)
-	    -p, --password [password]    Spotify Password (required)
-	    -l, --playlist [playlist]    Spotify URI for playlist
+	    -u, --username [username]    Spotify Playlist Username (required)
+	    -p, --playlist [playlist]    Spotify Playlist (required)
 	    -d, --directory [directory]  Directory you want to save the mp3s to, default: HOME/spotify-mp3s
+	    -f, --folder                 create sub-folder for playlist
 	
 
 
