@@ -5,36 +5,33 @@ Download an entire spotify playlist ( FROM SPOTIFY @ 160kbps ) to your local mac
 Also upon download it writes the ID3 data to the file.
 
 ###To install:
-Install nodejs if you haven't already. ( [NodeJS Downloads](http://nodejs.org/download/) )
+Install nodejs if you haven't already. ([NodeJS Downloads](http://nodejs.org/download/))  
+Then download this repository (*"Download ZIP"* button on this page)  
+Unpack the repository and run the following command in the root of where all the files are (main.js, readme.md, ...):  
 
-	npm install -g spotify-playlist-downloader
-
-You will also need ffmpeg installed.
-
-	In mac terminal: brew install ffmpeg
+    npm install
 
 
 ###Available Options
 
 	
-	Usage: spotify-playlist-downloader [options]
+	Usage: node main.js [options]
 	
 	Options:
 
 	    -h, --help                   output usage information
 	    -V, --version                output the version number
-	    -u, --username [username]    Spotify Username (required)
-	    -p, --password [password]    Spotify Password (required)
-	    -l, --playlist [playlist]    Spotify URI for playlist
+	    -u, --username [username]    Spotify Playlist Username (required)
+	    -p, --playlist [playlist]    Spotify Playlist (required)
 	    -d, --directory [directory]  Directory you want to save the mp3s to, default: HOME/spotify-mp3s
+	    -f, --folder                 create sub-folder for playlist
 	
 
 
-####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify". You would use the following command:
+####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify", you would use the following command:
+    Playlist Uri looks like this: spotify:UserXYZ:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw
 
-	spd -u yourusername -p yourpassword -l spotify:user:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw
-
-`spd` is the shorthand for `spotify-playlist-downloader`. You can use either one.
+	node main.js -u UserXYZ -p 06KmJWiQhL0XiV6QQAHsmw
 
 ####The output should look something like:
 
@@ -44,10 +41,5 @@ You will also need ffmpeg installed.
 
 ###Must haves:
 
-- Spotify Premium Account ( haven't tried it on a free account )
-- Only tested on Mac OSX 10.10 ( Should work on Linux and Windows as well??? )
-
-### Disclaimer:
-
-- This was done purely as an academic exercise.
-- I do not recommend you doing this illegally or against Spotify's terms of service.
+- ~~Spotify Premium Account ( haven't tried it on a free account )~~  
+_Works fine with a free account as well, get's limited after a while though, but starts downloads again afterwards_ 
