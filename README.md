@@ -9,7 +9,7 @@ Install nodejs if you haven't already. ([NodeJS Downloads](http://nodejs.org/dow
 Then download this repository (*"Download ZIP"* button on this page)  
 Unpack the repository and run the following command in the root of where all the files are (main.js, readme.md, ...):  
 
-    npm install -g
+    npm install
 
 
 ###Available Options
