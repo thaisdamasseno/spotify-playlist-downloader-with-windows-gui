@@ -44,5 +44,5 @@ You will also need ffmpeg installed.
 
 ###Must haves:
 
-- ~~Spotify Premium Account ( haven't tried it on a free account )~~
+- ~~Spotify Premium Account ( haven't tried it on a free account )~~  
 _Works fine with a free account as well, get's limited after a while though, but starts downloads again afterwards_ 
