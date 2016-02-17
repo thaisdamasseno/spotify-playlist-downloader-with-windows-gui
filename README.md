@@ -44,10 +44,5 @@ You will also need ffmpeg installed.
 
 ###Must haves:
 
-- Spotify Premium Account ( haven't tried it on a free account )
-- Only tested on Mac OSX 10.10 ( Should work on Linux and Windows as well??? )
-
-### Disclaimer:
-
-- This was done purely as an academic exercise.
-- I do not recommend you doing this illegally or against Spotify's terms of service.
+- ~~Spotify Premium Account ( haven't tried it on a free account )~~
+_Works fine with a free account as well, get's limited after a while though, but starts downloads again afterwards_ 
