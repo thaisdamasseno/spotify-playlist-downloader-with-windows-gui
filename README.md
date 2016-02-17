@@ -5,13 +5,11 @@ Download an entire spotify playlist ( FROM SPOTIFY @ 160kbps ) to your local mac
 Also upon download it writes the ID3 data to the file.
 
 ###To install:
-Install nodejs if you haven't already. ( [NodeJS Downloads](http://nodejs.org/download/) )
+Install nodejs if you haven't already. ([NodeJS Downloads](http://nodejs.org/download/))  
+Then download this repository (*"Download ZIP"* button on this page)  
+Unpack the repository and run the following command in the root of where all the files are (main.js, readme.md, ...):  
 
-	npm install -g spotify-playlist-downloader
-
-You will also need ffmpeg installed.
-
-	In mac terminal: brew install ffmpeg
+    npm install -g
 
 
 ###Available Options
