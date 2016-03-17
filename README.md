@@ -36,3 +36,14 @@ Add option to set download folder (For now songs will be saved to: C:\Users\your
 ###Additional Comments
 
 Free Accounts get limited after a while though, but starts downloading again afterwards
+
+
+Thanks to /u/dva010/
+If you are trying to download an artist that has a '.' at the end of their name, it will create a folder that Windows will not allow you to delete without running a command in cmd.
+
+Pasted command below on how to remove the folder if you guys run into this issue.
+
+Command to delete folder that ends in '.'
+
+rd /s "\?\C:\Documents and Settings\User\Desktop\Annoying Folder."
+
