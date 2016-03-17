@@ -1,6 +1,6 @@
 # Spotify Playlist Downloader With Windows GUI
 
-![image](guitool106.png)
+![image](guitool11.png)
 
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
@@ -32,6 +32,10 @@ Paste that in to the Spotify Playlist URL Textbox
 
 ###Changelog
 
+#####V1.1
+
+You can now download up to 3 playlists in 1 go
+
 #####V1.0.6
 
 NodeJS launch bugfix
@@ -52,9 +56,9 @@ Initial Release
 
 ###TO-DO
 
-Add option to download multiple playlists
-
 Add option to set download folder (For now songs will be saved to: C:\Users\youruser\Music)
+
+~~Add option to download multiple playlists~~ DONE! Since V1.1
 
 ~~Add option to download all mp3's to a single folder~~ DONE! Since V1.0.5 with the Artist/Album option
 
