@@ -29,7 +29,7 @@ Paste that in to the Spotify Playlist URL Textbox
 
 Add option to download all mp3's to a single folder
 
-Add option to set download folder
+Add option to set download folder (For now songs will be saved to: C:\Users\youruser\spotify-mp3s)
 
 ###Additional Comments
 
