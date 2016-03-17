@@ -54,6 +54,8 @@ Add option to set download folder (For now songs will be saved to: C:\Users\your
 
 ###Additional Comments
 
+To download Albums for now the only way to do it is to add the songs to a playlist and then download that playlist.
+
 Free Accounts get limited after a while though, but starts downloading again afterwards
 
 You can't login with Facebook accounts so you will have to create a new Spotify user to login.
