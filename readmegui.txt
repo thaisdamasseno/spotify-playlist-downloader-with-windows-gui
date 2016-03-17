@@ -1,10 +1,8 @@
-For Full Help: https://github.com/dekiller82/spotify-playlist-downloader-with-windows-gui
-
-Songs will be saved to: C:\Users\youruser\spotify-mp3s
+Songs will be saved to your Music folder 
 
 First Time Setup (Only needs to be done right after downloading)
 
-Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
+Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLANE TEXT)
 Step 2: Click the "npm install" button and wait for it to put some shit in this window.
 
 How To Get Playlist URL
