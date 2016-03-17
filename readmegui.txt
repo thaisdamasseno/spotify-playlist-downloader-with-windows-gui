@@ -1,3 +1,5 @@
+For Full Help: https://github.com/dekiller82/spotify-playlist-downloader-with-windows-gui
+
 Songs will be saved to: C:\Users\youruser\spotify-mp3s
 
 First Time Setup (Only needs to be done right after downloading)
