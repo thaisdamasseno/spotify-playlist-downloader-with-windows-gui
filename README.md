@@ -30,4 +30,6 @@ Add option to download all mp3's to a single folder
 
 Add option to set download folder
 
-Free Accounts get limited after a while though, but starts downloads again afterwards_ 
+###Additional Comments
+
+Free Accounts get limited after a while though, but starts downloads again afterwards
