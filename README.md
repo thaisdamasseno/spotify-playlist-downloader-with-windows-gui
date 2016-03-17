@@ -32,6 +32,10 @@ Paste that in to the Spotify Playlist URL Textbox
 
 ###Changelog
 
+#####V1.0.5
+
+Added option for /Artist/Album file structure
+
 #####V1.0.1
 
 Updated default download folder to the Windows Music folder.
