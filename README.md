@@ -8,6 +8,7 @@ When done downloading it also writes the ID3 data to the file.
 ###To install:
 Install nodejs if you haven't already. ([NodeJS Downloads](http://nodejs.org/download/))  
 Microsoft .NET Framework 4.6 if you haven't already. ([Download](https://www.microsoft.com/en-US/download/details.aspx?id=48130))
+
 Then download this repository (*"Download ZIP"* button on this page)  
 Unpack the repository and run the .exe (source code can be found here https://github.com/dekiller82/Spotify-Playlist-Downloader-GUI)
 
