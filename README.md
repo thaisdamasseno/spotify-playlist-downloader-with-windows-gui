@@ -7,39 +7,23 @@ Also upon download it writes the ID3 data to the file.
 ###To install:
 Install nodejs if you haven't already. ([NodeJS Downloads](http://nodejs.org/download/))  
 Then download this repository (*"Download ZIP"* button on this page)  
-Unpack the repository and run the following command in the root of where all the files are (main.js, readme.md, ...):  
+Unpack the repository and run the .exe (source code can be found here https://github.com/dekiller82/Spotify-Playlist-Downloader-GUI)
 
-    npm install
+###First Time Setup (Only needs to be done right after downloading)
 
+Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLANE TEXT)
 
-###Available Options
+Step 2: Click the "npm install" button and wait for it to put some shit in the window.
 
-	
-	Usage: node main.js [options]
-	
-	Options:
+###How To Get Playlist URL
 
-	    -h, --help                   output usage information
-	    -V, --version                output the version number
-	    -u, --username [username]    Spotify Playlist Username (required)
-	    -p, --playlist [playlist]    Spotify Playlist (required)
-	    -d, --directory [directory]  Directory you want to save the mp3s to, default: HOME/spotify-mp3s
-	    -f, --folder                 create sub-folder for playlist
-	
+Go to the Spotify Webplayer and Navigate to the Playlist you want to download.
+Your URL should look something like this:
 
+https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
 
-####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify", you would use the following command:
-    Playlist Uri looks like this: spotify:UserXYZ:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw
-
-	node main.js -u UserXYZ -p 06KmJWiQhL0XiV6QQAHsmw
-
-####The output should look something like:
-
-![image](spotify-downloader.png)
+Paste that in to the Spotify Playlist URL Textbox
 
 
 
-###Must haves:
-
-- ~~Spotify Premium Account ( haven't tried it on a free account )~~  
-_Works fine with a free account as well, get's limited after a while though, but starts downloads again afterwards_ 
+ Free Accounts get limited after a while though, but starts downloads again afterwards_ 
