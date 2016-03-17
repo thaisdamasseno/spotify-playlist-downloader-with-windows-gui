@@ -10,6 +10,7 @@ Install nodejs (USE INSTALLER!!) if you haven't already. ([NodeJS Downloads](htt
 Microsoft .NET Framework 4.6 if you haven't already. ([Download](https://www.microsoft.com/en-US/download/details.aspx?id=48130))
 
 Then download this repository ([HERE](https://github.com/dekiller82/spotify-playlist-downloader-with-windows-gui/archive/master.zip)) or use the button on github. 
+
 Unpack the repository and run the .exe (source code can be found here https://github.com/dekiller82/Spotify-Playlist-Downloader-GUI)
 
 ###First Time Setup (Only needs to be done right after downloading)
