@@ -1,5 +1,7 @@
 # Spotify Playlist Downloader With Windows GUI
 
+![image](guitool.png)
+
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
 When it starts downloading it checks if you already downloaded the song if so it skips it.
