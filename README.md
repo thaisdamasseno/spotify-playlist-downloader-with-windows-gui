@@ -52,9 +52,11 @@ Initial Release
 
 ###TO-DO
 
-Add option to download all mp3's to a single folder
+Add option to download multiple playlists
 
 Add option to set download folder (For now songs will be saved to: C:\Users\youruser\Music)
+
+~~Add option to download all mp3's to a single folder~~ DONE! Since V1.0.5 with the Artist/Album option
 
 ###Additional Comments
 
