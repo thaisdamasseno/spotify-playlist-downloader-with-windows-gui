@@ -1,4 +1,4 @@
-# Spotify Playlist Downloader
+# Spotify Playlist Downloader With Windows GUI
 
 Download an entire spotify playlist ( FROM SPOTIFY @ 160kbps ) to your local machine.
 
