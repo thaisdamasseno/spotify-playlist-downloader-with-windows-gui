@@ -28,6 +28,18 @@ https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
 
 Paste that in to the Spotify Playlist URL Textbox
 
+###Changelog
+
+#####V1.0.1
+
+Updated default download folder to the Windows Music folder.
+
+Updated Layout
+
+#####V1
+
+Initial Release
+
 ###TO-DO
 
 Add option to download all mp3's to a single folder
