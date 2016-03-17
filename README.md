@@ -32,4 +32,4 @@ Add option to set download folder
 
 ###Additional Comments
 
-Free Accounts get limited after a while though, but starts downloads again afterwards
+Free Accounts get limited after a while though, but starts downloading again afterwards
