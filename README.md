@@ -1,8 +1,9 @@
 # Spotify Playlist Downloader With Windows GUI
 
-Download an entire spotify playlist ( FROM SPOTIFY @ 160kbps ) to your local machine.
+Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
-Also upon download it writes the ID3 data to the file.
+When it starts downloading it checks if you already downloaded the song if so it skips it.
+When done downloading it also writes the ID3 data to the file.
 
 ###To install:
 Install nodejs if you haven't already. ([NodeJS Downloads](http://nodejs.org/download/))  
