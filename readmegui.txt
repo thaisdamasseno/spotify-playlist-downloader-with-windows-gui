@@ -11,5 +11,5 @@ Go to the Spotify Webplayer and Navigate to the Playlist you want to download.
 Your URL should look something like this:
 
 https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
-
+To download Albums for now the only way to do it is to add the songs to a playlist and then download that playlist.
 Paste that in to the Spotify Playlist URL Textbox 
