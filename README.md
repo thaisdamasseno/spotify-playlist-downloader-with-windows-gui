@@ -38,6 +38,7 @@ Add option to set download folder (For now songs will be saved to: C:\Users\your
 
 Free Accounts get limited after a while though, but starts downloading again afterwards
 
+You can't login with Facebook accounts so you will have to create a new Spotify user to login.
 
 #####Thanks to /u/dva010/
 
