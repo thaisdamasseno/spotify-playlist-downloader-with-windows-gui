@@ -24,6 +24,10 @@ https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
 
 Paste that in to the Spotify Playlist URL Textbox
 
+###TO-DO
 
+Add option to download all mp3's to a single folder
 
- Free Accounts get limited after a while though, but starts downloads again afterwards_ 
+Add option to set download folder
+
+Free Accounts get limited after a while though, but starts downloads again afterwards_ 
