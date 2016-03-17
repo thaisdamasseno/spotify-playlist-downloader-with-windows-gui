@@ -54,7 +54,7 @@ Add option to set download folder (For now songs will be saved to: C:\Users\your
 
 ###Additional Comments
 
-If you get any errors please go to "C:\Program Files\nodejs" and see if nodejs is installed there and the node.exe is also present.
+If you get any errors please go to "C:\Program Files\nodejs" and see if node.exe and npm.cmd are installed there
 
 To download Albums for now the only way to do it is to add the songs to a playlist and then download that playlist.
 
