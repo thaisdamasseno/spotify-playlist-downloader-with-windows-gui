@@ -8,7 +8,7 @@ When it starts downloading it checks if you already downloaded the song if so it
 When done downloading it also writes the ID3 data to the file.
 
 ###To install:
-Install nodejs (USE INSTALLER!!) if you haven't already. ([NodeJS Downloads](https://nodejs.org/en/download/))  
+Install nodejs (USE INSTALLER!! Install 64bit if you're on a 64bit system!!!) if you haven't already. ([NodeJS Downloads](https://nodejs.org/en/download/))  
 Microsoft .NET Framework 4.6 if you haven't already. ([Download](https://www.microsoft.com/en-US/download/details.aspx?id=48130))
 
 Then download this repository ([HERE](https://github.com/dekiller82/spotify-playlist-downloader-with-windows-gui/archive/master.zip)) or use the button on github. 
