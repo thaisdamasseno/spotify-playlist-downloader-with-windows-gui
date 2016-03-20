@@ -17,7 +17,7 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 ###First Time Setup (Only needs to be done right after downloading)
 
- recommend using a brand new Spotify Account for this tool!
+**I recommend using a brand new Spotify Account for this tool!**
 
 Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
 
