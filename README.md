@@ -105,5 +105,6 @@ rd /s "\?\C:\Documents and Settings\User\Desktop\Annoying Folder."
 ### Disclaimer:
 
 - This was done purely as an academic exercise.
+- This my first coding project so code is sloppy en ugly
 - I do not recommend you doing this illegally or against Spotify's terms of service.
 
