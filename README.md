@@ -1,6 +1,6 @@
 # Spotify Playlist Downloader With Windows GUI
 
-![image](guitool12.PNG)
+![image](guitool12.png)
 
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
