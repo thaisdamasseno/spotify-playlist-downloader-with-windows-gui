@@ -102,3 +102,8 @@ Command to delete folder that ends in '.'
 
 rd /s "\?\C:\Documents and Settings\User\Desktop\Annoying Folder."
 
+### Disclaimer:
+
+- This was done purely as an academic exercise.
+- I do not recommend you doing this illegally or against Spotify's terms of service.
+
