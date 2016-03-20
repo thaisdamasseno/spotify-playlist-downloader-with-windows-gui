@@ -17,9 +17,9 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 ###First Time Setup (Only needs to be done right after downloading)
 
-Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
+ recommend using a brand new Spotify Account for this tool!
 
-I recommend using a brand new Spotify Account for this!
+Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
 
 Step 2: Click the "npm install" button and wait for it to put some shit in the window.
 
