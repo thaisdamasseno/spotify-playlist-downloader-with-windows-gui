@@ -9,6 +9,7 @@
     "colors": "*",
     "commander": "*",
     "node-id3": "^0.0.4",
+    "httpreq": "^0.4.16",
     "lodash": "^3.0.0",
     "mkdirp": "^0.5.0",
     "spotify-web": "file:spot_node.tar.gz"
