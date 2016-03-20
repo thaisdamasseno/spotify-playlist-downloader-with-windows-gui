@@ -34,6 +34,8 @@ Paste that in to the Spotify Playlist URL Textbox
 
 #####V1.2
 
+**IF YOU ALREADY HAVE V1.1.6 OR BELOW PLEASE FULLY REINSTALL**
+
 Tool now also downloads album art and attaches it.
 
 You can now download up to 5 playlists in 1 go
