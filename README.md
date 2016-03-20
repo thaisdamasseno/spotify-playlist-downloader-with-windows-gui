@@ -19,6 +19,8 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
 
+I recommend using a brand new Spotify Account for this!
+
 Step 2: Click the "npm install" button and wait for it to put some shit in the window.
 
 ###How To Get Playlist URL
