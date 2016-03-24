@@ -1,6 +1,6 @@
 # Spotify Playlist Downloader With Windows GUI
 
-![image](guitool12.png)
+![image](guitool2.png)
 
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
@@ -19,20 +19,25 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 **I recommend using a brand new Spotify Account for this tool!**
 
-Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
-
-Step 2: Click the "npm install" button and wait for it to put some shit in the window.
+The tool will check for the node_modules folder on startup. If it's not there it will take care of the nmp install.
 
 ###How To Get Playlist URL
 
-Go to the Spotify Webplayer and Navigate to the Playlist you want to download.
-Your URL should look something like this:
-
-https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
-
-Paste that in to the Spotify Playlist URL Textbox
+[CLICK HERE FOR A STEP BY STEP GUIDE WITH PICTURES](http://imgur.com/a/tAFo3)
 
 ###Changelog
+
+#####V2.0
+
+**RELAUNCH! IF YOU ALREADY HAVE V1.2 OR BELOW FULLY REINSTALL THIS REPOSITORY**
+
+New UI
+
+Bugfix for Usernames with a dot in their name
+
+New Log in screen
+
+Password wipe will be wiped on log out only
 
 #####V1.2
 
