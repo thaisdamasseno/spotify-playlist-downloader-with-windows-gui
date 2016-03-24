@@ -21,9 +21,9 @@
 
   Program.version('0.0.2').option('-u, --username [username]', 'Spotify Playlist Username (required)', null).option('-p, --playlist [playlist]', 'Spotify Playlist (required)', null).option('-d, --directory [directory]', "Directory you want to save the mp3s to, default: " + (getUserHome()) + "/Music", (getUserHome()) + "/Music").option('-f, --folder', "create folder for playlist", null).option('-g, --generate', "generate file for playlist", null).parse(process.argv);
 
-  USERNAME = ">>USERNAME<<"; //Program.username;
+USERNAME = "USERNAME"; //Program.username;
 
-  PASSWORD = ">>PASSWORD<<"; //Program.password;
+PASSWORD = "PASSWORD"; //Program.password;
 
   PLAYLIST_USER = Program.username;
   PLAYLIST_LIST = Program.playlist;
