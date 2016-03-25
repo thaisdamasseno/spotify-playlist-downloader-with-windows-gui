@@ -19,6 +19,8 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 **I recommend using a brand new Spotify Account for this tool!**
 
+Log In using your Spotify Username and Password.
+
 The tool will check for the node_modules folder on startup. If it's not there it will take care of the npm install.
 
 ###How To Get Playlist URL
