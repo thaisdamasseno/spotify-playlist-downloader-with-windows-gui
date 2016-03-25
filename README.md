@@ -39,7 +39,7 @@ Bugfix for Usernames with a dot in their name
 
 New Log in screen
 
-Password wipe will be wiped on log out only
+Password will be wiped on log out only
 
 #####V1.2
 
