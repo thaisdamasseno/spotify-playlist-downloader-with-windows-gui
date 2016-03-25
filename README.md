@@ -21,6 +21,8 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 Log In using your Spotify Username and Password.
 
+You can't login with Facebook accounts so you will have to create a new Spotify user to login.
+
 The tool will check for the node_modules folder on startup. If it's not there it will take care of the npm install.
 
 ###How To Get Playlist URL
