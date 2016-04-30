@@ -2,7 +2,7 @@
 
 ![image](guitool2.png)
 
-## IMPORTANT NOTICE THE TOOL IS NOT WORKING IF YOU'RE READING THIS. DOWNLOADING IT WOULD BE USELESS
+## IMPORTANT NOTICE THE TOOL IS NOT WORKING. DOWNLOADING IT WOULD BE USELESS. WORKING ON A UPDATE.
 
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
