@@ -2,6 +2,8 @@
 
 ![image](guitool2.png)
 
+## IMPORTANT NOTICE THE TOOL IS NOT WORKING IF YOU'RE READING THIS. DOWNLOADING IT WOULD BE USELESS
+
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
 When it starts downloading it checks if you already downloaded the song if so it skips it.
