@@ -4,6 +4,8 @@
 
 ## IMPORTANT NOTICE THE TOOL IS NOT WORKING. DOWNLOADING IT WOULD BE USELESS. WORKING ON A UPDATE.
 
+## 12/MAY Still working.... sorry.
+
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
 When it starts downloading it checks if you already downloaded the song if so it skips it.
