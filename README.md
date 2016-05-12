@@ -4,7 +4,7 @@
 
 ## IMPORTANT NOTICE THE TOOL IS NOT WORKING. DOWNLOADING IT WOULD BE USELESS. WORKING ON A UPDATE.
 
-## 12/MAY Still working.... sorry.
+## 12/MAY Still working on the update.... sorry.
 
 Download an entire spotify playlist (160kbps mp3's) to your local machine with a simple interface
 
